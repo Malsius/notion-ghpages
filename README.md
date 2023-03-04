@@ -3,7 +3,8 @@ This project aim to create your own blog using Notion as CMS and hosting it on G
 
 It uses [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod) as default theme.
 
-[Example](https://malsius.github.io/notion-ghpages)
+## Demo
+Here you can find the [demo website](https://malsius.github.io/notion-ghpages).
 
 ## Usage
 [Step-by-step guide](https://malsius.github.io/notion-ghpages/usage)
