@@ -1,0 +1,13 @@
+<!-- Checks if page is part of section and page is not section itself -->
+{{- if and (ne .Page.Kind "section") (.Page.Section ) }}
+<!-- Generate a unique id for each image -->
+{{- $random := (substr (md5 .Destination) 0 5) }}
+<input type="checkbox" id="zoomCheck-{{$random}}" hidden>
+<label for="zoomCheck-{{$random}}">
+    <img class="zoomCheck" loading="lazy" decoding="async" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{
+        with.Title}} title="{{ . }}" {{ end }} />
+</label>
+{{- else }}
+<img loading="lazy" decoding="async" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}}
+    title="{{ . }}" {{ end }} />
+{{- end }}
