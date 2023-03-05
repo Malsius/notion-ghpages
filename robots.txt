@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://malsius.github.io/notion-ghpages/sitemap.xml
