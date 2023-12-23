@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>features on Blog template</title>
+    <link>https://malsius.github.io/notion-ghpages/tags/features/</link>
+    <description>Recent content in features on Blog template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://malsius.github.io/notion-ghpages/tags/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features</title>
+      <link>https://malsius.github.io/notion-ghpages/features/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://malsius.github.io/notion-ghpages/features/</guid>
+      <description>Example of post written with Notion</description>
+    </item>
+    
+  </channel>
+</rss>
